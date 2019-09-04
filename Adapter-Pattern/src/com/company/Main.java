@@ -12,5 +12,6 @@ public class Main {
         IFighter merliniFighter = new WizzardToFighterAdapter(merlini);
 
         merliniFighter.attack();
+
     }
 }
